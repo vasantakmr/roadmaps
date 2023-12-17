@@ -16,7 +16,7 @@
     {
       id: "1",
       data: { label: "Command Prompt" },
-      position: { x: 0, y: 450 },
+      position: { x: 0, y: 240 },
       sourcePosition: Position.Right,
     },
     {
@@ -61,7 +61,7 @@
     },
     {
       id: "8",
-      data: { label: "Moving around folders" },
+      data: { label: "Working with folders : Creating, moving, and deleting folders" },
       position: { x: 240, y: 420 },
       targetPosition: Position.Left,
       sourcePosition: Position.Right,
@@ -69,28 +69,49 @@
     {
       id: "9",
       data: { label: "Moving around folders" },
-      position: { x: 240, y: 420 },
+      position: { x: 480, y: 380 },
       targetPosition: Position.Left,
       sourcePosition: Position.Right,
     },
     {
       id: "10",
-      data: { label: "Moving around folders" },
-      position: { x: 240, y: 420 },
+      data: { label: "Working with files : 1. Creating updating and deleting files." },
+      position: { x: 240, y: 500 },
       targetPosition: Position.Left,
       sourcePosition: Position.Right,
     },
     {
       id: "11",
-      data: { label: "Moving around folders" },
-      position: { x: 240, y: 420 },
+      data: { label: "Listing files from folders" },
+      position: { x: 480, y: 460 },
       targetPosition: Position.Left,
       sourcePosition: Position.Right,
     },
     {
       id: "12",
-      data: { label: "Moving around folders" },
-      position: { x: 240, y: 420 },
+      data: { label: "Miscellaneous " },
+      position: { x: 240, y: 580 },
+      targetPosition: Position.Left,
+      sourcePosition: Position.Right,
+    },
+    {
+      id: "13",
+      data: { label: "Grepping" },
+      position: { x: 480, y: 540 },
+      targetPosition: Position.Left,
+      sourcePosition: Position.Right,
+    },
+    {
+      id: "14",
+      data: { label: "Batch files" },
+      position: { x: 480, y: 620 },
+      targetPosition: Position.Left,
+      sourcePosition: Position.Right,
+    },
+    {
+      id: "15",
+      data: { label: "Networking commands & tool " },
+      position: { x: 480, y: 700 },
       targetPosition: Position.Left,
       sourcePosition: Position.Right,
     },
@@ -131,6 +152,41 @@
       id: "1-8",
       source: "1",
       target: "8",
+    },
+    {
+      id: "8-9",
+      source: "8",
+      target: "9",
+    },
+    {
+      id: "1-10",
+      source: "1",
+      target: "10",
+    },
+    {
+      id: "8-11",
+      source: "8",
+      target: "11",
+    },
+    {
+      id: "1-12",
+      source: "1",
+      target: "12",
+    },
+    {
+      id: "12-13",
+      source: "12",
+      target: "13",
+    },
+    {
+      id: "12-14",
+      source: "12",
+      target: "14",
+    },
+    {
+      id: "12-15",
+      source: "12",
+      target: "15",
     },
   ]);
 </script>
